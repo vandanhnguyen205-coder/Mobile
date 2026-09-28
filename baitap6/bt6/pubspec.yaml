@@ -1,0 +1,26 @@
+name: bt6
+description: A new Flutter project.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.6
+  audioplayers: ^5.2.1 # Thư viện audio player[cite: 3]
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+# KHỐI FLUTTER DUY NHẤT TRONG FILE (KHÔNG ĐƯỢC TẠO THÊM KHỐI 'flutter:' KHÁC):
+flutter:
+  uses-material-design: true
+
+  # Khai báo thư mục assets chứa file âm thanh[cite: 3]
+  assets:
+    - assets/audios/
